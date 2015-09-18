@@ -32,6 +32,15 @@ All commands and their options you can find by use of -h option or in the Manual
 All commnads of procannot must be run from the installation directory.
 
 To create all databases that were listed above for Bacillus subtilis (reference NC_000964), run the command:
-python3 procannot.py make_all -o 'Bacillus subtilis' -r NC_000964
 
-To 
+```python3 procannot.py make_all -o 'Bacillus subtilis' -r NC_000964```
+
+To create only database of genes' information run the command:
+
+```python3 procannot.py make_genomedb -o 'Bacillus subtilis'```
+
+If you already have database of genes for this organism and want to create database with orthologues for this reference of an organism, run the command:
+
+```python3 procannot.py make_orthodb -o 'Bacillus subtilis' -r NC_000964```
+
+
