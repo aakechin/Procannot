@@ -15,7 +15,7 @@ Procannot is a software package for annotating SNPs from bacteria genomes. It co
 * **Organisms** - contains information about all organisms that were written to the databases;
 * **PathwayDB** - contains information about all pathways of all strains;
 * **SnpDB** - contains all SNPs that were found between all strains of an organism;
-* **OrthoDB** and alignedOrthoDB - contain alignments of genes of all strains of an organism.
+* **OrthoDB** and **alignedOrthoDB** - contain alignments of genes of all strains of an organism.
 
 ## Availability
 
@@ -67,5 +67,9 @@ In this case output will be written to the same directory as input file. As outp
 * **input.annotated.checked.filtered.tab** - file that contains only SNPs that had 0 value of the previous stage;
 * **input.annotated.checked.filtered.synNonsyn.tab** - file that contains genes' IDs and descriptions and number of synonymous, nonsynonymous SNPs and their ratio from list of SNPs from the previous stage;
 * **input.annotated.checked.filtered.synNonsyn.filtered.tab** - file that contains only genes' IDs that had >=3 nonsynonymous SNPs and dN/dS ratio more than 2. Ratios  with divide-by-zero are written as 1000.
+
+If you want to annotate your data stage-by-stage, you can use functions sepparately. For example, for filtering table use the command like the following:
+
+```python3 data.py filter --input input.tab --row-start 2 --column-names 1 --expression '4 > 1 & 5 <=10' --output output.tab```
 
 
