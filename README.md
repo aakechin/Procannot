@@ -1,4 +1,4 @@
-# Procannot
+# procannot
 
 Procannot annotates SNPs in procaryotic genomes
 
@@ -16,3 +16,22 @@ Procannot is a software package for annotating SNPs from bacteria genomes. It co
 * PathwayDB - contains information about all pathways of all strains;
 * SnpDB - contains all SNPs that were found between all strains of an organism;
 * OrthoDB and alignedOrthoDB - contain alignments of genes of all strains of an organism.
+
+## Availability
+
+Procannot is released under GPLv3. The latest source code is freely available at github. After you acquire the source code, install python version 3 or higher and then use it. You can install Python3 with the following command:
+
+sudo apt-get install python3
+
+## Manual
+
+All commands and their options you can find by use of -h option or in the Manual.pdf file.
+
+## Examples of use
+
+All commnads of procannot must be run from the installation directory.
+
+To create all databases that were listed above for Bacillus subtilis (reference NC_000964), run the command:
+python3 procannot.py make_all -o 'Bacillus subtilis' -r NC_000964
+
+To 
