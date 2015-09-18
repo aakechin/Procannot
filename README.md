@@ -57,4 +57,7 @@ If you have all necessary databases (listed above), you can annotate your SNP li
 
 In this case output will be written to the same directory as input file. As output there will be the following files:
 * input.annotated.tab - file where each SNP has characteristic 'Introgene/Intergene', gene ID, gene strand, gene name, gene description, nucleotide change, aminoacid change, aminoacid class change and all other characteristics that were in the input file;
-* input.annotated.checked.tab - file that contains all of previous data and additionally for each SNP it has number of references that 
+* input.annotated.checked.tab - file that contains all of previous data and additional column for each SNP that contains number of strains that has got the same SNP against reference genome;
+* input.annotated.checked.filtered.tab - file that contains only SNPs that had 0 value of the previous stage;
+* input.annotated.checked.filtered.synNonsyn.tab - file that contains genes' IDs and descriptions and number of synonymous, nonsynonymous SNPs and their ratio from list of SNPs from the previous stage;
+* input.annotated.checked.filtered.synNonsyn.filtered.tab - file that contains only genes' IDs that had >=3 nonsynonymous SNPs and dN/dS ratio more than 2. Ratios  with divide-by-zero are written as 1000.
