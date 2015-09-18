@@ -51,4 +51,10 @@ If you already have database of orthologues and want to create database of SNPs 
 
 ### Data annotation (data.py)
 
+If you have all necessary databases (listed above), you can annotate your SNP list with whole workflow that is used in procannot. One of the most great convinience of procannot is independence from standards of input file. User can input VCF-file, TAB-delimited file from Freebayes or GATK-converted or simple TXT-file that was created manually. Thus for full annotation of your data run the command (use of short parameters' name is available):
 
+```python3 data.py full --input input.tab --row-start 2 --column-names 1 --snp-coordinates 1 --reference-allele 2 --alternative-allele 3 --organism 'Listeria monocytogenes' --reference NC_003210```
+
+In this case output will be written to the same directory as input file. As output there will be the following files:
+* input.annotated.tab - file where each SNP has characteristic 'Introgene/Intergene', gene ID, gene strand, gene name, gene description, nucleotide change, aminoacid change, aminoacid class change and all other characteristics that were in the input file;
+* input.annotated.checked.tab - file that contains all of previous data and additionally for each SNP it has number of references that 
