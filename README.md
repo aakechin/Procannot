@@ -3,7 +3,7 @@ Procannot annotates SNPs in procaryotic genomes
 
 Getting started
 
-git clone https://github.com/aakechin/procannot.git
+<a> git clone https://github.com/aakechin/procannot.git </a>
 
-Introduction
+# Introduction
 
