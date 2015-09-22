@@ -76,4 +76,4 @@ If you want to annotate your data stage-by-stage, you can use functions sepparat
 
 ## Citing procannot
 
-It's being developed...
+Now the manuscript is being written. So now you can cite it by url link to github: https://github.com/aakechin/procannot
