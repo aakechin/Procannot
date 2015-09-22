@@ -19,13 +19,15 @@ Procannot is a software package for annotating SNPs from bacteria genomes. It co
 
 ## Availability
 
-Procannot is released under GPLv3. The latest source code is freely available at github. After you acquire the source code, install python version 3 or higher, numpy and biopython and then use it. You can install Python3 with the following command:
+Procannot is released under GPLv3. The latest source code is freely available at github. After you acquire the source code, install python version 3 or higher, numpy, sympy and biopython and then use it. You can install Python3 with the following command:
 
 ```sudo apt-get install python3```
 
 For installation numpy download it by the command below and then install according to instuctions:
 
 ```git clone git://github.com/numpy/numpy.git numpy```
+
+For installation sympy download it from the [github site](https://github.com/sympy/sympy/releases) and install according to the instructions.
 
 For installation biopython download in from the [site](http://biopython.org/wiki/Download) and install according to the instructions.
 
