@@ -68,7 +68,7 @@ In this case output will be written to the same directory as input file. As outp
 * **input.annotated.checked.tab** - file that contains all of previous data and additional column for each SNP that contains number of strains that has got the same SNP against reference genome;
 * **input.annotated.checked.filtered.tab** - file that contains only SNPs that had 0 value of the previous stage;
 * **input.annotated.checked.filtered.synNonsyn.tab** - file that contains genes' IDs and descriptions and number of synonymous, nonsynonymous SNPs and their ratio from list of SNPs from the previous stage;
-* **input.annotated.checked.filtered.synNonsyn.filtered.tab** - file that contains only genes' IDs that had >=3 nonsynonymous SNPs and dN/dS ratio more than 2. Ratios  with divide-by-zero are written as 1000.
+* **input.annotated.checked.filtered.pathways.tab** - file that contains result of gene set enrichment analysis.
 
 If you want to annotate your data stage-by-stage, you can use functions sepparately. For example, for filtering table use the command like the following:
 
@@ -77,3 +77,11 @@ If you want to annotate your data stage-by-stage, you can use functions sepparat
 ## Citing procannot
 
 Now the manuscript is being written. So now you can cite it by url link to github: https://github.com/aakechin/procannot
+
+## Bugs
+
+There are some bugs. Report them to me, please: a.a.kechin@gmail.com
+
+## New features
+
+If you want some new features, contact with me: a.a.kechin@gmail.com. If there are some more users wanting this feature, it will be done.
