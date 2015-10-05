@@ -31,7 +31,7 @@ For installation sympy download it from the [github site](https://github.com/sym
 
 For installation biopython download in from the [site](http://biopython.org/wiki/Download) and install according to the instructions.
 
-For installation of blastn v. 2.2.30 download it from the [site of ncbi] (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.2.30/) and copy blastn file from bin/ directory to the $PATH directory, e.g. /usr/local/bin/
+For installation of blastn v. 2.2.30 download it from the [site of ncbi](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.2.30) and copy blastn file from bin/ directory to the $PATH directory, e.g. /usr/local/bin/
 
 ## Manual
 
