@@ -19,7 +19,7 @@ Prokannot is a software package for annotating SNPs from bacteria genomes. It co
 
 ## Availability
 
-Prokannot is released under GPLv3. The latest source code is freely available at github. After you acquire the source code, install python version 3 or higher, numpy, sympy and biopython and then use it. You can install Python3 with the following command:
+Prokannot is released under GPLv3. The latest source code is freely available at github. After you acquire the source code, install python version 3 or higher, numpy, sympy, biopython and blastn (version 2.2.30 was tested) and then use it. You can install Python3 with the following command:
 
 ```sudo apt-get install python3```
 
@@ -30,6 +30,8 @@ For installation numpy download it by the command below and then install accordi
 For installation sympy download it from the [github site](https://github.com/sympy/sympy/releases) and install according to the instructions.
 
 For installation biopython download in from the [site](http://biopython.org/wiki/Download) and install according to the instructions.
+
+For installation of blastn v. 2.2.30 download it from the [site of ncbi] (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.2.30/) and copy blastn file from bin/ directory to the $PATH directory, e.g. /usr/local/bin/
 
 ## Manual
 
